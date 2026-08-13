@@ -4,9 +4,11 @@ Proyecto de un portal web turístico enfocado en Santa Ana, El Salvador. El obje
 
 Integrantes:
 
-Arturo
+Arturo Manzur
 José Carlos Manzanares
+Julio Alberto Herrera
 Raquel Chicas
+
 
 Distribución del trabajo:
 
@@ -45,3 +47,4 @@ Cada integrante deberá realizar al menos tres commits con mensajes claros que d
 
 Pull Request:
 Cuando una página esté terminada, el integrante deberá crear un Pull Request desde su rama hacia `main`. Otro integrante revisará el trabajo y realizará al menos un comentario antes de aprobarlo y realizar el merge.
+
