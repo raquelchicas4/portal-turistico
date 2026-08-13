@@ -1,0 +1,98 @@
+
+.contacto-seccion {
+    background-color: #FFFFFF;
+    padding: 45px 35px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.contacto-seccion h2 {
+    color: #245C4A;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitulo-contacto {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 35px;
+}
+
+/* Rejilla de 2 columnas */
+.grid-contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    align-items: start;
+}
+
+/* Columna de Información Directa */
+.info-contacto {
+    background-color: #F4EFE6;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.info-contacto h3, 
+.formulario-contacto h3 {
+    color: #245C4A;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.item-info {
+    margin-bottom: 20px;
+}
+
+.item-info strong {
+    color: #245C4A;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.info-contacto .boton {
+    width: 100%;
+}
+
+/* Columna del Formulario */
+.formulario-contacto .campo {
+    margin-bottom: 18px;
+}
+
+.formulario-contacto label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #263238;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.formulario-contacto input:focus,
+.formulario-contacto textarea:focus {
+    border-color: #4F8F70;
+    box-shadow: 0 0 5px rgba(79, 143, 112, 0.3);
+}
+
+.formulario-contacto button {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Adaptación a celulares */
+@media (max-width: 700px) {
+    .grid-contacto {
+        grid-template-columns: 1fr;
+    }
+}

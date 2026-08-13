@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Portal Turístico de Santa Ana</title>
+    <link rel="stylesheet" href="css/estilos_contacto.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor">
+            <h1>Portal Turístico de Santa Ana</h1>
+            <p>Descubre los lugares, paisajes y experiencias de Santa Ana</p>
+        </div>
+    </header>
+
+    <nav class="navegacion">
+        <div class="contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="destinos.html">Destinos</a>
+            <a href="galeria.html">Galería</a>
+            <a href="contacto.html" class="activo">Contacto</a>
+        </div>
+    </nav>
+
+    <main class="contenedor">
+
+        <section class="contacto-seccion">
+            <h2>Ponte en contacto con nosotros</h2>
+            <p class="subtitulo-contacto">
+                ¿Tienes alguna duda o consulta sobre tu próximo viaje a Santa Ana? Escríbenos o llámanos directamente.
+            </p>
+
+            <div class="grid-contacto">
+
+                <!-- INFORMACIÓN DE CONTACTO -->
+                <div class="info-contacto">
+                    <h3>Información Directa</h3>
+                    
+                    <div class="item-info">
+                        <strong>Teléfono / WhatsApp:</strong>
+                        <p>
+                            <a href="tel:+50361401478" class="enlace">+503 6140-1478</a>
+                        </p>
+                    </div>
+
+                    <div class="item-info">
+                        <strong>Ubicación:</strong>
+                        <p>Santa Ana, El Salvador</p>
+                    </div>
+
+                    <div class="item-info">
+                        <strong>Horario de atención:</strong>
+                        <p>Lunes a Viernes: 8:00 AM - 5:00 PM</p>
+                    </div>
+
+                    <a href="https://wa.me/50361401478" target="_blank" class="boton">
+                        Escribir por WhatsApp
+                    </a>
+                </div>
+
+                <!-- FORMULARIO DE CONTACTO -->
+                <form class="formulario-contacto">
+                    <h3>Envíanos un mensaje</h3>
+
+                    <div class="campo">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿En qué te podemos ayudar?" required></textarea>
+                    </div>
+
+                    <button type="submit" class="boton">Enviar mensaje</button>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="pie">
+        <div class="contenedor">
+            <p>Portal Turístico de Santa Ana</p>
+            <p>El Salvador</p>
+        </div>
+    </footer>
+
+</body>
+</html>
